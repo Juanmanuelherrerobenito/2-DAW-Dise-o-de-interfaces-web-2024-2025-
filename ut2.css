@@ -1,0 +1,112 @@
+.colores-fondos{
+    color:brown;
+    background-color: rgb(34, 255,1);
+    opacity: 0,32;
+
+}
+
+
+.tipografia>h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 0ch;
+}
+.tipografia>h2{
+    font-size: xx-small;
+}
+
+.tipografia>p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.espaciado>ul{
+margin: 10%,20%,10%,20%;
+padding: 10%,;
+text-align: center;
+}
+
+
+.bordes-sombras>div{
+    border: solid color( 255 0 0);
+    border-radius: 10% 50% 30%;
+    box-shadow:40px -20px yellow;
+}
+
+.posicionamiento>div{
+position: relative;
+top: 50px; 
+left: 60px;
+}
+
+.posicionamiento>footer{
+    position: absolute;
+    top: 500px; 
+    left: 30px;
+
+
+}
+
+.productos>li{
+list-style-type: circle;
+list-style-position:inside;
+}
+
+.botones>button{
+    border: solid aquamarine;
+    background-color: tomato;
+    color:transparent pink;
+    padding: 50px 40px;
+    border-radius: 50px;
+}
+
+.tablas>table{
+border:solid crimson;
+padding: 20px, 50px;
+border-collapse: separate;
+text-align: left;
+}
+
+.contenedor>li{
+margin: 12px 4px 5px 9px;
+padding: 5px 10px 40px 8px;
+}
+
+.imagenes>img{
+    width: 400px;
+    height: 400px;
+    border: solid red;
+    border-radius: 40px 30px;
+}
+
+.formulario>form{
+    border: transparent orangered;
+    padding: 5px 10px 15px 20px;
+}
+/*Ejercicio 12 utilizacion de clases*/
+.formulario>label{
+    top: 500px; 
+    left: 30px;
+}
+
+.formulario>textarea{
+    color: chocolate;
+    background-color: orchid;
+}
+
+
+.enlaces>ul{
+    color:aqua;
+    text-decoration: red overline;
+    text-shadow: blue 5px 20px; 
+    
+}
+
+.efectos-texto{
+    text-transform: lowercase;
+    letter-spacing: .3rem;
+    text-shadow: olive 3px;
+}
+
+.elementos-linea>elemento{
+    display:inline;
+}
