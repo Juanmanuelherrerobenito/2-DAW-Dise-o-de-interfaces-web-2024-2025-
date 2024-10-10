@@ -1,0 +1,90 @@
+
+
+.flex-item{
+    background-color: cornflowerblue;
+    height: 50px;
+}
+
+/*Distribucion 1*/
+/*.contenedor_flex {
+    background-color: lightgrey;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: end;
+    align-content: stretch;
+}*/
+
+
+
+/*Distribucion 2*/
+/*.contenedor_flex {
+    background-color: lightgrey;
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: start;
+}*/
+
+
+
+/*Distribucion 3*/
+/*.contenedor_flex {
+    background-color: lightgrey;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: stretch;
+    align-items: start;
+}*/
+
+
+/*Distribucion 4*/
+/*.contenedor_flex {
+    background-color: lightgrey;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-flow:  column wrap;
+    gap: 20px;
+    justify-content: stretch;
+    align-items: start;
+}*/
+
+/*Distribucion 5*/
+/*.contenedor_flex {
+    background-color: lightgrey;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    justify-content: stretch;
+    align-items: center;
+}
+.flex-item:hover{
+    background-color: fuchsia;
+    flex: 30px;
+}*/
+
+/*Distribucion 6*/
+.contenedor_flex {
+    background-color: lightgrey;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    row-gap: 20px;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: start;
+    align-content: center;
+}
