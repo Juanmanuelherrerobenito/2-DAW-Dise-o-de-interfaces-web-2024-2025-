@@ -1,0 +1,275 @@
+*{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+}
+/*ejercicio1*/
+/*.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid ;
+    border-color: #f76707;
+    width: 450px;
+    height: 100px;
+}
+
+.contenedor>div{
+    background-color: #ffd8a8;
+    border: 2px solid ;
+    border-color: #ffa94d;
+    color: #d9480f;
+    text-align: center;
+}*/
+
+/*ejercicio2*/
+
+/*.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "uno uno uno";
+    border: 2px solid ;
+    border-color: #f76707;
+    width: 450px;
+    height: 100px;
+}
+
+.contenedor>div{
+    background-color: #ffd8a8;
+    border: 2px solid ;
+    border-color: #ffa94d;
+    color: #d9480f;
+    text-align: center;
+}
+
+.uno{
+    grid-area: uno;
+}*/
+
+/*ejercicio3*/
+/*.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "uno uno uno uno"
+    "dos dos . ."
+    "dos dos . ."
+    "dos dos . ."
+    "dos dos . .";
+    border: 2px solid ;
+    border-color: #f76707;
+    width: 450px;
+    height: 200px;
+}
+
+.contenedor>div{
+    background-color: #ffd8a8;
+    border: 2px solid ;
+    border-color: #ffa94d;
+    color: #d9480f;
+    text-align: center;
+}
+.uno{
+    grid-area: uno;
+}
+
+.dos{
+    grid-area: dos;
+}
+*/
+/*ejercicio 4 aqui quitamos las clases del 7 al 9*/
+/*.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "uno uno uno"
+    "dos . . "
+    "dos . . ";
+    border: 2px solid ;
+    border-color: #f76707;
+    width: 450px;
+    height: 200px;
+}
+
+.contenedor>div{
+    display: flex;
+    background-color: #ffd8a8;
+    border: 2px solid ;
+    border-color: #ffa94d;
+    color: #d9480f;
+   justify-content: center;
+    align-items: center; 
+    padding-top 15px; 
+}
+.uno{
+    grid-area: uno;
+}
+
+.dos{
+    grid-area: dos;
+}*/
+
+/*ejercicio 5 aqui quitamos las clases del 7 al 9*/
+/*.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "uno uno dos dos"
+    "tres cuatro cuatro cuatro "
+    "cinco cinco cinco seis ";
+    border: 2px solid ;
+    border-color: #f76707;
+    width: 450px;
+    height: 200px;
+}
+
+.contenedor>div{
+    display: flex;
+    background-color: #ffd8a8;
+    border: 2px solid ;
+    border-color: #ffa94d;
+    color: #d9480f;
+    justify-content: center;
+    align-items: center; 
+    padding-top 15px; 
+}
+.uno{
+    grid-area: uno;
+}
+
+.dos{
+    grid-area: dos;
+}
+
+.tres{
+    grid-area: tres;
+}
+
+.cuatro{
+    grid-area: cuatro;
+}
+
+.cinco{
+    grid-area: cinco;
+}
+
+.seis{
+    grid-area: seis;
+}*/
+
+/*ejercicio 6 aqui quitamos las clases del 7 al 9*/
+/*.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid ;
+    border-color: #f76707;
+    width: 450px;
+    height: 200px;
+}
+
+.contenedor>div{
+    display: flex;
+    background-color: #ffd8a8;
+    border: 2px solid ;
+    border-color: #ffa94d;
+    color: #d9480f;
+    justify-content: center;
+    align-items: center; 
+    padding-top 15px; 
+}
+
+.uno{
+    order: 5;
+}
+*/
+
+/*ejercicio 7 aqui quitamos las clases del 5 al 9*/
+/*.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    ". uno uno uno "
+    "dos dos tres tres "
+    "dos dos tres tres "
+    "cuatro cuatro cuatro cuatro ";
+    border: 2px solid ;
+    border-color: #f76707;
+    width: 450px;
+    height: 200px;
+}
+
+.contenedor>div{
+    display: flex;
+    background-color: #ffd8a8;
+    border: 2px solid ;
+    border-color: #ffa94d;
+    color: #d9480f;
+    justify-content: center;
+    align-items: center; 
+    padding-top 15px; 
+}
+
+.uno{
+    grid-area: uno;
+}
+
+.dos{
+    grid-area: dos;
+}
+
+.tres{
+    grid-area: tres;
+}
+
+.cuatro{
+    grid-area: cuatro;
+}*/
+
+/*ejercicio 8 aqui quitamos las clases del 7 al 9*/
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "uno uno cuatro cuatro "
+    "dos dos cinco cinco "
+    "tres tres seis seis ";
+    border: 2px solid ;
+    border-color: #f76707;
+    width: 450px;
+    height: 200px;
+}
+
+.contenedor>div{
+    display: flex;
+    background-color: #ffd8a8;
+    border: 2px solid ;
+    border-color: #ffa94d;
+    color: #d9480f;
+    justify-content: center;
+    align-items: center; 
+    padding-top 15px; 
+}
+
+.uno{
+    grid-area: uno;
+}
+
+.dos{
+    grid-area: dos;
+}
+
+.tres{
+    grid-area: tres;
+}
+
+.cuatro{
+    grid-area: cuatro;
+}
+
+.cinco{
+    grid-area: cinco;
+}
+
+.seis{
+    grid-area: seis;
+}
