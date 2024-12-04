@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto 0;
+}
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    margin: auto;
+    font-weight: bolder;
+}
+
+input[text]{
+    width: 180px;
+}
+
+
+textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+input{
+    width: 60%;
+
+}
+input[text],textarea{
+    background-color: white;
+    margin: 10px;
+}
+
+button{
+    background-color:black;
+    color:white;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor:pointer;
+}
+label{
+   padding:10px;
+}
+label:hover{
+    color:pink;
+}
+
+
+#nombre:valid{
+background-color: aquamarine;
+}
+
+#password:valid{
+    background-color: aquamarine;
+}
+
+
+input:invalid{
+    background-color: darksalmon;
+}
+
+input:out-of-range{
+background-color: tomato;
+border:3px solid;
+border-color: black;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+  <form>
+    <label>Nombre<input type="text" id="nombre" name="nombre" placeholder="Escribe tu usuario" pattern="\w{3,100}"></label>
+    <label>Password<input type="password" id="password" name="password" placeholder="titular de la contraseña" pattern="\w{8}"></label>
+    <label>Email<input type="email" id="email" name="email" placeholder="email"></label>
+    <label>Telefono<input type="phone" id="telefono" name="telefono" placeholder="+34 666 777 888"></label>
+    <label>URL<input type="url" id="url" name="url" placeholder="http://dominio.com"></label>
+    <label>Edad<input type="number" id="edad" name="edad" min=18 max=100 step=1></label>
+    <label>Fecha de nacimiento<input type="date" id="fecha" name="fecha" placeholder="dd/mm/aaaa"></label>
+    <label>mensaje</label>
+    <textarea id="text" name="text" placeholder="describete en menos de 300 palabras" rows=10 cols=30 maxlength=300></textarea>
+    <button type="submit" id="boton" value="boton">enviar datos</button>
+  </form>  
+</body>
+</html>
