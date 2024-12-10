@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.caja{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+
+.b1:hover+ .caja1{
+    transform: translate(200px,200px);
+    transition: all 1s ease;
+    transition-timing-function: cubic-bezier(0.075, -0.82, 0.165, -1);
+}
+
+.b2:hover+.caja2{
+    transform: scaleX(3.5);
+    transition: all 2s ease-in-out;
+    transition-timing-function: cubic-bezier(0.165, -0.84, 0.44, -1);
+}
+
+.b3:hover+.caja3{
+    transform: skew(-45deg,15deg);
+    transition: all 3s ease-out;
+    transition-timing-function: cubic-bezier(0.175, -0.885, 0.32, -1.275);
+}
+
+.b4:hover+.caja4{
+    transform: rotateZ(180deg);
+    transition: all 4s ease-in;
+    transition-timing-function: cubic-bezier(0.19, -1, 0.22, -1);
+}
+
+.b5:hover+.caja5{
+    transform: rotate(45deg) scale(120%) translate(400px,-600px);
+    transition: all 5s ease-in-out;
+    transition-timing-function: cubic-bezier(0.215, -0.610, 0.355, -1);
+}
