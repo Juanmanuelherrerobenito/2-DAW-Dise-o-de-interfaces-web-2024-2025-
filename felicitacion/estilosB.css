@@ -1,0 +1,140 @@
+
+/*Poner el flex a menos el proximo dia*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    background-image: linear-gradient( to left,#345 1px,transparent 1px),
+    linear-gradient( to top,#345 1px,transparent 1px);
+    background-size: 50px 50px;
+    background-image: url(fondo.png),url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
+    background-position: center,center;
+    background-size: cover,cover;
+}
+
+.year{
+flex: 90%;
+max-width: 80%;
+position: absolute;
+cursor:progress;
+}
+
+.year:before{
+    content: 'Dejamos este año malo';
+    position: absolute;
+    top: -0,75em;
+    width: 100%;
+    color: gray;
+    text-align: center;
+    font-size: 2em;
+    transition: 3s;
+}
+
+
+
+
+.year:hover:before{
+    transform: rotate(360deg) translateY(-200px);
+    opacity: 0;
+    filter: blur(40px);
+}
+
+
+.year:after{
+    content: 'Y empecemos el próximo con alegría';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    color: gray;
+    text-align: center;
+    font-size: 2em;
+    transition: 4s;
+    opacity: 0;
+}
+
+.year:hover:after{
+    transform: rotate(-360deg) translateY(-35px);
+    opacity: 1;
+    animation: navidad 1s linear alternate infinite;
+}
+
+.year span{
+    display: inline-block;
+    color: gray;
+    font-size: 10em;
+    font-weight: bold;
+    transition: 1s;
+    filter: blur(1px);
+}
+
+ .year:hover span{
+    animation: navidad 1s linear alternate infinite;
+ }
+ 
+
+
+.year:hover span:last-child{
+    transform: scale(0) translateX(500px);
+    opacity: 0;
+    filter:blur(5px);
+    animation: navidad 1s linear alternate infinite;
+}
+
+.year span:nth-child(3):after{
+    content: '5';
+    position: absolute;
+    transform: scale(0) translatex(500px);
+    transition: 2s;
+}
+
+.year:hover span:nth-child(3):after{
+    position: absolute;
+    transform: scale(1) translatex(5px);
+    transition: 2s;
+    animation: navidad 1s linear alternate infinite;
+}
+
+
+@keyframes navidad {
+0%{
+    color:#b32428
+} 
+
+50%{
+    color:#008f39;
+}
+
+100%{
+    color:#efb810
+}
+}
+
+@media (max-width: 800px) {
+    .year{
+    flex: 50%;
+    max-width: 50%;
+    font-size: 50%;
+    background-size: 50%;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+    .year{
+    flex: 100%;
+    max-width: 100%;
+    font-size: 50%;
+    }
+}
