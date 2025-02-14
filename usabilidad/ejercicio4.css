@@ -1,0 +1,32 @@
+.container p{
+    line-height: 30px;
+}
+.container table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+
+ .container th, td {
+    padding: 12px; 
+    border: 1px solid #ccc;
+ }
+
+ .container tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.container tr:nth-child(odd) {
+        background-color: #BABDB6;
+}
+
+.container tr:hover {
+    background-color: #8AE234;
+}
+
+a{
+font-style: italic;
+font-size: 1.4rem;
+padding: 0px 15px;
+}

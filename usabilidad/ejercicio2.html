@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario no usable</title>
+<style>
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
+.form-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000;
+}
+.form-field {
+    margin-bottom: 20px;
+}
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.form-field input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+.submit-button {
+    background-color: #ccc;
+    border: 1px solid #000;
+    padding: 10px 20px;
+}
+
+label{
+    font-size: large;
+}
+
+.uno:valid{
+    background-color: green;
+}
+
+.uno:invalid{
+    background-color: red;
+}
+
+
+.dos:valid{
+    background-color: green;
+}
+
+.dos:invalid{
+    background-color: red;
+}
+
+.tres:valid{
+    background-color: green;
+}
+
+.tres:invalid{
+    background-color: red;
+}
+
+.submit-button{
+    padding: 20px;
+    color: #F3F3F3;
+    background-color: #2E3436;
+    border-color: orangered;
+    font-weight: bold;
+}
+
+form input { 
+    margin-bottom: 15px; 
+    padding: 10px; 
+}
+
+input::placeholder {
+color: #aaa; 
+font-style: italic; /
+}
+</style>
+</head>
+<body>
+<div class="form-container">
+    <h1>Formulario</h1>
+    <form>
+    <div class="form-field uno">
+        <label id="nombre">*Nombre</label>
+        <input type="text" placeholder="Nombre" pattern="[a-zA-Z]+" aria-labelledby="nombre">
+    </div>
+    <div class="form-field dos">
+        <label id="email">*Correo electrónico</label>
+        <input type="email" placeholder="Email@hotmail.com" aria-labelledby="email">
+    </div>
+    <div class="form-field tres">
+        <label id="telefono">*Teléfono</label>
+        <input type="text" placeholder="numero de telefono" aria-labelledby="telefono">
+    </div>
+    <div class="form-field">
+        <label id="mensaje">Mensaje</label>
+        <textarea placeholder="Pon un mensaje" aria-labelledby="email"></textarea>
+    </div>
+    <button type="submit" class="submit-button">Enviar</button>
+    </form>
+</div>
+</body>
+</html>
