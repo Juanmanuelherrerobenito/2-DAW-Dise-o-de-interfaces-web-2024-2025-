@@ -1,0 +1,25 @@
+  
+  body{
+    height: 1222px;
+  }
+  .container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  @media (max-width:768px){
+        ul{
+            flex:1 1 100%;
+            flex-direction: column;
+            justify-content: space-between;
+        }  
+    }
+
+    @media (min-width:768px){
+        .nav{
+            flex-direction: row;
+        }        
+
+    }
